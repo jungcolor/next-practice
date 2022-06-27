@@ -4,7 +4,6 @@ import Link from 'next/link';
 
 
 function photos({ photos }) {
-    console.log(photos[0].thumbnailUrl);
     return (
         <div>
             <HeadInfo title='My Blog Photos' />
